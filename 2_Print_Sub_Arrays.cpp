@@ -1,5 +1,5 @@
 // Code to print all sub_array's of an array.
-// Time Complexity is = (  O(log)n^3  )
+// Time Complexity is = (  O(n)^3  )
 #include <iostream>
 using namespace std;
 // Function to print rh the sub-array's
