@@ -5,8 +5,15 @@ using namespace std;
 void printSubarrays(int *arr, int n) {
 
     for (int start = 0; start < n; start++) {   // Outer Loop
+        // Iteration 1 => 0,0,0,0,0
+        // Iteration 2 => 1,1,1,1
+        // Iteration 3 => 2,2,2
         
         for (int end = start; end < n; end++) { // Inner Loop
+            // This will print 0 to 4 => 0,1,2,3,4
+            // iteration 2 => 1,2,3,4
+            // Iteration 3 => 2,3,4
+
             cout << "(" << start << "," << end << ") ";
             
             
